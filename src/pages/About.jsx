@@ -1,8 +1,13 @@
 import React from "react";
 import photo from "../Assets/photo.jpg";
-import "flowbite";
+
 import { Timeline } from "../components/Timeline";
 import { Progress } from "../components/Progress";
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+
+AOS.init();
+AOS.refresh();
 
 const About = () => {
   return (
@@ -13,7 +18,10 @@ const About = () => {
             <h1 className="font-ham mb-2 text-[3.5rem]">ABOUT</h1>
           </div>
           <hr />
-          <div className=" mt-8">
+          <div data-aos="zoom-in-down"
+     data-aos-offset="300"
+     data-aos-duration="800"
+     data-aos-easing="ease-in-sine" className= "mt-8">
             <p className=" font-heading text-2xl">
               Hey, my name is Prabesh Pokharel. I’m a graphic designer &
               front-end web developer from Nepal. I’m also passionate about
@@ -23,8 +31,11 @@ const About = () => {
               support Liverpool :) )
             </p>
           </div>
-
-          <div className="grid mobile:grid-cols-1 laptop:grid-cols-1 desktop:grid-cols-2 mt-[100px] mr-10">
+          
+          <div  data-aos="zoom-in-down"
+     data-aos-offset="100"
+     data-aos-duration="800"
+     data-aos-easing="ease-in-sine"  className=" grid mobile:grid-cols-1 laptop:grid-cols-1 desktop:grid-cols-2 mt-[100px] mr-10">
             <div className="flex text-xl flex-col gap-y-2">
               <div>Birthday: 1st October, 1999</div>
               <hr className="w-[300px]" />
@@ -45,10 +56,17 @@ const About = () => {
               <div>Freelance: Available </div>
             </div>
           </div>
-          <div className="mt-[100px]">
+          <div data-aos="zoom-in-down"
+     data-aos-offset="300"
+     data-aos-duration="800"
+     data-aos-easing="ease-in-sine" className="mt-[100px]">
             <Progress/>
           </div>
-          <div className="mt-[100px]">
+          <div data-aos="zoom-in-down"
+     data-aos-offset="600"
+     data-aos-duration="800"
+     data-aos-easing="ease-in-sine"
+     className="mt-[100px]">
             <Timeline />
           </div>
         </div>

@@ -30,8 +30,7 @@ module.exports = {
         "slide-in-top2": "slide-in-top2 1.4s ease-in-out both",
         "slide-in-top3": "slide-in-top3 1.6s ease-in-out both",
         "slide-in-top4": "slide-in-top4 1s cubic-bezier(0.250, 0.460, 0.450, 0.940)   both",
-        "slide-out-top": "slide-out-top 2s cubic-bezier(0.550, 0.085, 0.680, 0.530)   both"
-        
+        "scale-up-top": "scale-up-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000)   both",
     },
     keyframes: {
         "slide-in-top": {
@@ -84,14 +83,14 @@ module.exports = {
           opacity: "1"
       }
   },
-  "slide-out-top": {
+  "scale-up-top": {
     "0%": {
-        transform: "translateY(0)",
-        opacity: "1"
+        transform: "scale(.5)",
+        "transform-origin": "50% 0%"
     },
     to: {
-        transform: "translateY(-1000px)",
-        opacity: "0"
+        transform: "scale(1)",
+        "transform-origin": "50% 0%"
     }
 },
     },
