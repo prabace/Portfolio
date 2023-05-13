@@ -57,7 +57,7 @@ const About = () => {
             </div>
           </div>
           <div data-aos="zoom-in-down"
-     data-aos-offset="300"
+     data-aos-offset="800"
      data-aos-duration="800"
      data-aos-easing="ease-in-sine" className="mt-[100px]">
             <Progress/>

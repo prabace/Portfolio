@@ -38,7 +38,7 @@ export const Navbar = () => {
          <li className=" animate-slide-in-top3 text-transparent"><a className="font-outline-2" href='/' >01. Home</a></li>
          <li className=" animate-slide-in-top2 text-transparent"><a className="font-outline-2" href='work' >02. Work</a></li>
           <li className="animate-slide-in-top1 text-transparent"><a className=" font-outline-2" href='aboutme'>03. About</a></li>
-          <li className="animate-slide-in-top text-transparent "><a className=" font-outline-2" href='#'>04. Contact</a></li>
+          <li className="animate-slide-in-top text-transparent "><a className=" font-outline-2" href='contact'>04. Contact</a></li>
         
         </ul>
       </div>
