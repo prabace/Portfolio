@@ -23,7 +23,7 @@ export const Home = () => {
           </p>
          
           <h2 className="animate-slide-in-top sub-heading text-center mobile:leading-[30px] mobile:text-[1rem] tablet:text-2xl tablet:leading-[40px] laptop:leading-[80px] laptop:text-3xl desktop:text-4xl desktop:leading-[90px] text-transparent bg-clip-text bg-gradient-to-r from-slate-500 via-slate-200 to-slate-700 font-extrabold font-heading">
-            I am a graphic designer & front-end web developer.
+            I am a UI/UX designer & front-end web developer.
           </h2>
 
        
