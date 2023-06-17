@@ -1,10 +1,9 @@
 import React from "react";
 import photo from "../Assets/photo.jpg";
-
 import { Timeline } from "../components/Timeline";
 import { Progress } from "../components/Progress";
-import 'aos/dist/aos.css';
-import AOS from 'aos';
+import "aos/dist/aos.css";
+import AOS from "aos";
 
 AOS.init();
 AOS.refresh();
@@ -18,10 +17,13 @@ const About = () => {
             <h1 className="font-ham mb-2 text-[3.5rem]">ABOUT</h1>
           </div>
           <hr />
-          <div data-aos="zoom-in-down"
-     data-aos-offset="300"
-     data-aos-duration="800"
-     data-aos-easing="ease-in-sine" className= "mt-8">
+          <div
+            data-aos="zoom-in-down"
+            data-aos-offset="300"
+            data-aos-duration="800"
+            data-aos-easing="ease-in-sine"
+            className="mt-8"
+          >
             <p className=" font-heading text-2xl">
               Hey, my name is Prabesh Pokharel. I’m a graphic designer &
               front-end web developer from Nepal. I’m also passionate about
@@ -31,11 +33,14 @@ const About = () => {
               support Liverpool :) )
             </p>
           </div>
-          
-          <div  data-aos="zoom-in-down"
-     data-aos-offset="100"
-     data-aos-duration="800"
-     data-aos-easing="ease-in-sine"  className=" grid mobile:grid-cols-1 laptop:grid-cols-1 desktop:grid-cols-2 mt-[100px] mr-10">
+
+          <div
+            data-aos="zoom-in-down"
+            data-aos-offset="100"
+            data-aos-duration="800"
+            data-aos-easing="ease-in-sine"
+            className=" grid mobile:grid-cols-1 laptop:grid-cols-1 desktop:grid-cols-2 mt-[100px] mr-10"
+          >
             <div className="flex text-xl flex-col gap-y-2">
               <div>Birthday: 1st October, 1999</div>
               <hr className="w-[300px]" />
@@ -45,7 +50,7 @@ const About = () => {
               <hr className="w-[300px]" />
               <div>City: Nikoshera, Bhaktapur</div>
             </div>
-            <hr className="mobile:w-[350px] tablet:w-[300px] laptop:w-[300px] desktop:hidden my-2"/>
+            <hr className="mobile:w-[350px] tablet:w-[300px] laptop:w-[300px] desktop:hidden my-2" />
             <div className="flex  text-xl flex-col gap-y-2">
               <div>Age: 23</div>
               <hr className="w-[300px]" />
@@ -56,23 +61,28 @@ const About = () => {
               <div>Freelance: Available </div>
             </div>
           </div>
-          <div data-aos="zoom-in-down"
-     data-aos-offset="800"
-     data-aos-duration="800"
-     data-aos-easing="ease-in-sine" className="mt-[100px]">
-            <Progress/>
+          <div
+            data-aos="zoom-in-down"
+            data-aos-offset="800"
+            data-aos-duration="800"
+            data-aos-easing="ease-in-sine"
+            className="mt-[100px]"
+          >
+            <Progress />
           </div>
-          <div data-aos="zoom-in-down"
-     data-aos-offset="600"
-     data-aos-duration="800"
-     data-aos-easing="ease-in-sine"
-     className="mt-[100px]">
+          <div
+            data-aos="zoom-in-down"
+            data-aos-offset="600"
+            data-aos-duration="800"
+            data-aos-easing="ease-in-sine"
+            className="mt-[100px]"
+          >
             <Timeline />
           </div>
         </div>
         <div className="  flex sticky justify-center ">
           <img
-          alt="profile"
+            alt="profile"
             className="desktop:max-w-xl laptop:max-w-md fixed rounded-lg transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
             src={photo}
           />
