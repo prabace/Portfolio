@@ -1,7 +1,5 @@
-import React,{ useState} from 'react'
-import Cursor from '../components/Cursor';
-import { Navbar } from '../components/Navbar';
-import {motion as m} from 'framer-motion'
+import React from 'react'
+
 export const Home = () => {
 
   return (

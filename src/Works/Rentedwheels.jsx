@@ -1,7 +1,6 @@
 import React from "react";
 import rented from "../Assets/rented.png";
 import homepage from "../Assets/homepage.png";
-import signup from "../Assets/signup.png";
 import login from "../Assets/login.png";
 import cars from "../Assets/cars.png";
 import checkout from "../Assets/checkout.png";
@@ -13,7 +12,7 @@ export const Rentedwheels = () => {
     <div className="bg-black">
       <div className="bg-black text-white w-screen h-[100%] max-w-[1280px] m-auto p-[10px] ">
         <div>
-          <img className="-mt-24 rounded-3xl" src={rented}></img>
+          <img alt="rented" className="-mt-24 rounded-3xl" src={rented}></img>
         </div>
         <div className="mt-[55px]">
           <h1 className="font-ham text-4xl">Rented Wheels.</h1>
@@ -46,31 +45,31 @@ export const Rentedwheels = () => {
         
           <div>
           <p>Login</p>
-          <img className="py-4" src={login}></img>
+          <img alt="login" className="py-4" src={login}></img>
           </div>
           <div>
           <p>Homepage</p>
-          <img className="py-4" src={homepage}></img>
+          <img alt="home" className="py-4" src={homepage}></img>
           </div>
           <div>
           <p>Categories</p>
-          <img className="py-4" src={cars}></img>
+          <img alt="cars" className="py-4" src={cars}></img>
           </div>
           <div>
           <p>Checkout</p>
-          <img className="py-4" src={checkout}></img>
+          <img alt="checkout" className="py-4" src={checkout}></img>
           </div>
           <div>
           <p>History</p>
-          <img className="py-4" src={history}></img>
+          <img alt="history" className="py-4" src={history}></img>
           </div>
           <div>
           <p>Admin Dashboard</p>
-          <img className="py-4" src={dashboard}></img>
+          <img alt="dashboard" className="py-4" src={dashboard}></img>
           </div>
           <div>
           <p>Admin Panel</p>
-          <img className="py-4" src={add}></img>
+          <img alt="add" className="py-4" src={add}></img>
           </div>
         </div>
       </div>

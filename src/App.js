@@ -1,6 +1,5 @@
-import React,{useState} from "react";
+import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Cursor from "./components/Cursor";
 import { Navbar } from "./components/Navbar";
 import { Home } from "./pages/Home";
 import About from "./pages/About";

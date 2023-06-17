@@ -72,6 +72,7 @@ const About = () => {
         </div>
         <div className="  flex sticky justify-center ">
           <img
+          alt="profile"
             className="desktop:max-w-xl laptop:max-w-md fixed rounded-lg transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
             src={photo}
           />

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
-import Cursor from "./Cursor";
+
 
 export const Navbar = () => {
   const [nav, setNav] = useState(false);
