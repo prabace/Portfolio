@@ -31,7 +31,7 @@ export const Rentedwheels = () => {
             <h2 className="my-2">Paradox</h2>
             <h2 className="my-2">NCIT</h2>
           </div>
-          <div className="flex justify-end font-heading text-xl col-span-2 px-4">
+          <div className="flex justify-end font-heading text-xl col-span-2 mr-6">
             <p className="flex">
               Rented Wheels is a web-commerce application that allows user to
               rent a vehicle according to their purpose via online payment or
