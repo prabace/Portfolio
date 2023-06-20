@@ -18,7 +18,7 @@ export const Rentedwheels = () => {
           <h1 className="font-ham text-4xl">Rented Wheels.</h1>
           <hr className="my-2" />
         </div>
-        <div className="grid grid-cols-4">
+        <div className="grid mobile:grid-cols-2 tablet:grid-cols-4">
           <div className="font-ham text-2xl">
             <h2 className="my-2">Category</h2>
             <h2 className="my-2">Year</h2>
@@ -31,8 +31,8 @@ export const Rentedwheels = () => {
             <h2 className="my-2">Paradox</h2>
             <h2 className="my-2">NCIT</h2>
           </div>
-          <div className="flex justify-end font-heading text-xl col-span-2">
-            <p>
+          <div className="flex justify-end font-heading text-xl col-span-2 px-4">
+            <p className="flex">
               Rented Wheels is a web-commerce application that allows user to
               rent a vehicle according to their purpose via online payment or
               cash. We offer rating and review system as well as booking history
