@@ -20,7 +20,7 @@ export const Contact = () => {
         <div className=''>
             <ul className='font-heading  mobile:text-[20px] tablet:text-2xl'>
                 <a href="https://www.linkedin.com/in/prabesh-pokharel-4b2735257/"><li>LinkedIn</li></a>
-                <li>Github</li>
+                <a href='https://github.com/prabace/'><li>Github</li></a>
                 <li>Instagram</li>
             </ul>
         </div>
