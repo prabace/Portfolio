@@ -9,17 +9,17 @@ export const Contact = () => {
 
             <div className='grid mobile:grid-cols-2 tablet:grid-cols-2 gap-y-10 desktop:grid-cols-4'>
         <div>
-            <h2  className='text-2xl font-extralight font-heading'>E-MAIL</h2>
+            <h2  className='mobile:text-xl tablet:text-2xl font-extralight font-heading'>E-MAIL</h2>
         </div>
         <div className= 'font-heading  mobile:text-[20px] tablet:text-2xl'>
            pokharel.prabesh00@gmail.com
         </div>
         <div className='grid grid-rows-3'>
-            <h2  className='desktop:ml-20 text-2xl font-extralight font-heading'>SOCIAL MEDIAS</h2>
+            <h2  className='desktop:ml-20 mobile:text-xl tablet:text-2xl font-extralight font-heading'>SOCIAL MEDIAS</h2>
         </div>
         <div className=''>
             <ul className='font-heading  mobile:text-[20px] tablet:text-2xl'>
-                <li>LinkedIn</li>
+                <a href="https://www.linkedin.com/in/prabesh-pokharel-4b2735257/"><li>LinkedIn</li></a>
                 <li>Github</li>
                 <li>Instagram</li>
             </ul>

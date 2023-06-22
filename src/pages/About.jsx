@@ -19,7 +19,7 @@ const About = () => {
           <hr />
           <div
             data-aos="zoom-in-down"
-            data-aos-offset="300"
+            data-aos-offset="100"
             data-aos-duration="800"
             data-aos-easing="ease-in-sine"
             className="mt-8"
@@ -39,19 +39,19 @@ const About = () => {
             data-aos-offset="100"
             data-aos-duration="800"
             data-aos-easing="ease-in-sine"
-            className=" grid mobile:grid-cols-1 laptop:grid-cols-1 desktop:grid-cols-2 mt-[100px] mr-10"
+            className=" grid pad:grid-cols-1 laptop:grid-cols-2 mt-[100px] "
           >
-            <div className="flex text-xl flex-col gap-y-2">
+            <div className="flex text-xl flex-col gap-y-4">
               <div>Birthday: 1st October, 1999</div>
               <hr className="w-[300px]" />
-              <div>Website: prabeshpokharel.com</div>
+              <div>Website: prabeshpokharel.netlify.app</div>
               <hr className="w-[300px]" />
               <div>Degree: B.E in Software Engineering</div>
               <hr className="w-[300px]" />
-              <div>City: Nikoshera, Bhaktapur</div>
+              <div className="mb-3">City: Nikoshera, Bhaktapur</div>
             </div>
-            <hr className="mobile:w-[350px] tablet:w-[300px] laptop:w-[300px] desktop:hidden my-2" />
-            <div className="flex  text-xl flex-col gap-y-2">
+            <hr className="mobile:w-[300px] tablet:w-[300px] pad:[300px] laptop:hidden desktop:hidden my-2" />
+            <div className="flex  text-xl flex-col gap-y-4">
               <div>Age: 23</div>
               <hr className="w-[300px]" />
               <div>Email: pokharel.prabesh00@gmail.com</div>
@@ -63,7 +63,7 @@ const About = () => {
           </div>
           <div
             data-aos="zoom-in-down"
-            data-aos-offset="800"
+            data-aos-offset="600"
             data-aos-duration="800"
             data-aos-easing="ease-in-sine"
             className="mt-[100px]"
@@ -83,7 +83,7 @@ const About = () => {
         <div className="  flex sticky justify-center ">
           <img
             alt="profile"
-            className="desktop:max-w-xl laptop:max-w-md fixed rounded-lg transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
+            className="desktop:max-w-xl laptop:max-w-md pad:max-w-sm fixed rounded-lg transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
             src={photo}
           />
         </div>
